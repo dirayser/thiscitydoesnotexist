@@ -1,0 +1,28 @@
+﻿@startuml
+left header
+<font color=000 size=18><b>Package:</b> User.
+<font color=000 size=16><b>ID:</b> u_01
+<font color=000 size=16><b>Name:</b> Редагування власних даних.
+<font color=000 size=16><b>Participants:</b> User, System.
+<font color=000 size=16><b>Conditions:</b> Деталі редагування користувачем власних даних.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Оновлено дані користувача.
+
+
+<font color=000 size=16><b>Main scenario:</b>
+
+
+end header
+|User|
+start
+:Користувач заходить в налаштування і 
+вибирає пункт “Редагувати свої дані”;
+|System|
+:Система відкриває сторінку
+"Редагування власних даних";
+|User|
+:Користувач вводить зміни та підтверджує їх;
+|System|
+:Система валідує дані та вносить зміни в бази даних;
+stop
+@enduml

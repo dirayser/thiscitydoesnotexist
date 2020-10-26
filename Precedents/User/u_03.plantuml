@@ -1,0 +1,25 @@
+﻿@startuml
+left header
+<font color=000 size=18><b>Package:</b> User.
+<font color=000 size=16><b>ID:</b> u_03
+<font color=000 size=16><b>Name:</b> Пошук вакантних місць.
+<font color=000 size=16><b>Participants:</b> User, System.
+<font color=000 size=16><b>Conditions:</b> Деталі пошуку вакантних місць.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Знайдено шукану вакансію.
+
+
+<font color=000 size=16><b>Main scenario:</b>
+
+
+end header
+|User|
+start
+:Користувач натискає на панель пошуку вакантних місць 
+і вводить потрібні дані (стать, вік, освіту);
+|System|
+:Система відбирає установи з підходящими вакантними місцями та показує їх користувачу;
+|User|
+:Користувач отримує бажану інформацію;
+stop
+@enduml

@@ -1,0 +1,27 @@
+﻿@startuml
+left header
+<font color=000 size=18><b>Package:</b> User.
+<font color=000 size=16><b>ID:</b> u_05
+<font color=000 size=16><b>Name:</b> Зв'язок з техпідтримкою.
+<font color=000 size=16><b>Participants:</b> User, System.
+<font color=000 size=16><b>Conditions:</b> Деталі зв'язку з техпідтримкою.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Відправлено повідомлення адміністратору.
+
+
+<font color=000 size=16><b>Main scenario:</b>
+
+
+end header
+|User|
+start
+:Користувач натискає на відповідну кнопку 
+меню в правій частині головної сторінки;
+|System|
+:Система відкриває форму для спілкування з адміністратором;
+|User|
+:Користувач вводить текст та підтверджує відправку;
+|System|
+:Система надсилає повідомлення адміністратору;
+stop
+@enduml

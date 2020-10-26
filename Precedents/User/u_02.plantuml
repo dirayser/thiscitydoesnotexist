@@ -1,0 +1,26 @@
+﻿@startuml
+left header
+<font color=000 size=18><b>Package:</b> User.
+<font color=000 size=16><b>ID:</b> u_02
+<font color=000 size=16><b>Name:</b> Пошук інших користувачів.
+<font color=000 size=16><b>Participants:</b> User, System.
+<font color=000 size=16><b>Conditions:</b> Деталі пошуку інших користувачів.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Знайдено шуканого користувача.
+
+
+<font color=000 size=16><b>Main scenario:</b>
+
+
+end header
+|User|
+start
+:Користувач натискає на панель пошуку користувачів і
+вводить ім’я іншого користувача або його id;
+|System|
+:Система відбирає користувачів з підходящими 
+даними та показує їх користувачу;
+|User|
+:Користувач отримує бажану інформацію;
+stop
+@enduml

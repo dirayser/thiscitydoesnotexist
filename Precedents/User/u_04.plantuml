@@ -1,0 +1,27 @@
+﻿@startuml
+left header
+<font color=000 size=18><b>Package:</b> User.
+<font color=000 size=16><b>ID:</b> u_04
+<font color=000 size=16><b>Name:</b> Створення запиту на реєстрацію нової установи.
+<font color=000 size=16><b>Participants:</b> User, System.
+<font color=000 size=16><b>Conditions:</b> Деталі створення запиту на реєстрацію нової установи.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Надіслано запит на реєстрацію.
+
+
+<font color=000 size=16><b>Main scenario:</b>
+
+
+end header
+|User|
+start
+:Користувач натискає на відповідну кнопку 
+меню в правій частині головної сторінки;
+|System|
+:Система відкриває сторінку з формою для реєстрації;
+|User|
+:Користувач вводить дані;
+|System|
+:Система валідує дані та надсилає на розгляд адміністратору;
+stop
+@enduml
