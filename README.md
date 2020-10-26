@@ -1,4 +1,4 @@
-##Список групи:
+## Список групи:
 Дмитро Дмитрієв (https://github.com/dirayser) \
 Єлізавєта Заводовська (https://github.com/zavad4) \
 Марк Зегельман (https://github.com/zemark-prog) \
