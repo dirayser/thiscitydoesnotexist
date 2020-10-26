@@ -17,10 +17,10 @@ Admin -left-> (a_03)
 Admin -down-> (a_04)
 Admin -up-> (a_05)
 Admin -down-> (a_06)
-(g_02) .> (a_01) : наступне
-(u_01) .> (a_02) : наступне
-(u_04) .> (a_03) : наступне
-(a_03) .> (a_04) : наступне
+(g_02) .> (a_01) : include
+(u_01) .> (a_02) : include
+(u_04) .> (a_03) : include
+(a_03) .> (a_04) : include
 (u_05) <.> (a_05) : взаємна комунікація
 Admin -up-|> User
 User -up-|> Guest
