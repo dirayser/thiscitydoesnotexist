@@ -1,0 +1,25 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Admin.
+<font color=000 size=16><b>ID:</b> a_04
+<font color=000 size=16><b>Name:</b> Реєстрація установ.
+<font color=000 size=16><b>Participants:</b> Admin, System.
+<font color=000 size=16><b>Conditions:</b> Деталі реєстрації установи адміністратором.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Зареєстровано нову установу.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Admin|
+start
+:Адміністратор натискає на "Додати установу";
+|System|
+:Система відкриває сторінку
+"Реєстрація установи";
+|Admin|
+:Вводить дані та підтверджує реєстрацію;
+|System|
+:Система змінює базу даних установ;
+stop
+@enduml

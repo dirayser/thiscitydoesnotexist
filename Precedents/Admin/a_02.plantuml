@@ -1,0 +1,25 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Admin.
+<font color=000 size=16><b>ID:</b> a_02
+<font color=000 size=16><b>Name:</b> Внесення змін до даних користувачів.
+<font color=000 size=16><b>Participants:</b> Admin, System.
+<font color=000 size=16><b>Conditions:</b> Деталі редагування користувача адміністратором.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Змінено дані користувача.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Admin|
+start
+:Адміністратор обирає заяву на \nзміну даних конкретного користувача;
+|System|
+:Система відкриває сторінку
+"Перевірка даних для редагування";
+|Admin|
+:Підтверджує / не підтверджує зміну даних;
+|System|
+:Система змінює базу даних користувачів;
+stop
+@enduml
