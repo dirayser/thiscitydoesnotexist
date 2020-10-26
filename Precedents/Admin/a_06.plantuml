@@ -1,0 +1,28 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Admin.
+<font color=000 size=16><b>ID:</b> a_06
+<font color=000 size=16><b>Name:</b> Редагування інформації про об'єкт інфраструктури.
+<font color=000 size=16><b>Participants:</b> Admin, System.
+<font color=000 size=16><b>Conditions:</b> Деталі зміни інформації про об'єкт інфрастуктури.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Змінено інформацію про об'єкт інфраструктури.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Admin|
+start
+:Адміністратор заходить на сторінку\nконкретного о'бєкту інфраструктури;
+|System|
+:Система відкриває сторінку об'єкту інфраструктури;
+|Admin|
+:Адміністратор обирає пункт меню: "Змінити дані про об'єкт";
+|System|
+:Система відкриває сторінку "Редагування даних об'єкту";
+|Admin|
+:Адміністратор вводить дані та підтведжує операцію;
+|System|
+:Система змінює базу даних установ;
+stop
+@enduml
