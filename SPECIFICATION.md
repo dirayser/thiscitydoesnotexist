@@ -18,12 +18,13 @@
    * [Незареєстрований обліковий запис:](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#%D0%BD%D0%B5%D0%B7%D0%B0%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81)
      + [5.1. Реєстрація користувача](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#51-%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D0%B0)
      + [5.2. Пошук користувачів](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#52-%D0%BF%D0%BE%D1%88%D1%83%D0%BA-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96%D0%B2)
+     + [5.3. Авторизація](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#53-%D0%BF%D0%BE%D1%88%D1%83%D0%BA-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96%D0%B2)
    * [Зареєстрований обліковий запис:](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#%D0%B7%D0%B0%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81)
-     + [5.3. Редагування користувача](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#53-%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D0%B0)
-     + [5.4. Пошук вакантних місць](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#54-%D0%BF%D0%BE%D1%88%D1%83%D0%BA-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%82%D0%BD%D0%B8%D1%85-%D0%BC%D1%96%D1%81%D1%86%D1%8C)
+     + [5.4. Редагування користувача](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#54-%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D0%B0)
+     + [5.5. Пошук вакантних місць](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#55-%D0%BF%D0%BE%D1%88%D1%83%D0%BA-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%82%D0%BD%D0%B8%D1%85-%D0%BC%D1%96%D1%81%D1%86%D1%8C)
    * [Адміністратор:](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#%D0%B0%D0%B4%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80)
-     + [5.5. Редагування інформації](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#55-%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97)
-     + [5.6. Реєстрація користувачів](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#56-%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96%D0%B2)  
+     + [5.6. Редагування інформації](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#56-%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97)
+     + [5.7. Реєстрація користувачів](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#57-%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%87%D1%96%D0%B2)  
 6. [Практичність](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#6-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%BD%D1%96%D1%81%D1%82%D1%8C)
    * [6.1. Локалізація](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#61-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F)
    * [6.2. Платформи](https://github.com/dirayser/thiscitydoesnotexist/blob/master/SPECIFICATION.md#62-%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B8)
@@ -82,15 +83,17 @@
 Реєстрація користувача проходить в один етап наступним чином: користувач надсилає необхідні у реєстраційній формі дані, після чого на пошту буде відправлено повідомлення із кодом підтвердження. Після підтвердження інформація користувача може бути змінена тільки адміністратором за представленням доказів користувачем.
 ### 5.2. Пошук користувачів
 Для всіх облікових записів надається можливість пошуку користувачів, який можна здійснити за наступними параметрами: ім'я, прізвище та місце роботи.
+### 5.3. Авторизація
+Для переходу зі стану незареєстрованого до зареєстрованого користувача необхідно пройти авторизацію.
 ## Зареєстрований обліковий запис:
-### 5.3. Редагування користувача
+### 5.4. Редагування користувача
 Для редагування своїх даних у системі користувач повинен написати заяву до адміністрації та надати усі необхідні документи щодо зміни інформації.
-### 5.4. Пошук вакантних місць
+### 5.5. Пошук вакантних місць
 Якщо в якогось підприємства є вільні місця, зареєстрований користувач має можливість їх побачити.
 ## Адміністратор:
-### 5.5. Редагування інформації
+### 5.6. Редагування інформації
 Адміністратор має доступ до будь-якої інформації в системі, тобто має можливість змінювати інформацію інших користувачів та підприємств.
-### 5.6. Реєстрація користувачів
+### 5.7. Реєстрація користувачів
 Адміністратору доступна функція реєстрації(додавання) користувачів до системи.
 # 6. Практичність
 ## 6.1. Локалізація
