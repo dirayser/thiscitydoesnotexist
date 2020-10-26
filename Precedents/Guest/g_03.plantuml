@@ -1,0 +1,20 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Guest.
+<font color=000 size=16><b>ID:</b> g_03
+<font color=000 size=16><b>Name:</b> Перегляд основних даних.
+<font color=000 size=16><b>Participants:</b> Guest, System.
+<font color=000 size=16><b>Conditions:</b> Деталі перегляду даних.
+<font color=000 size=16><b>Exceptions:</b>
+<font color=000 size=16><b>Result:</b> Користувач переглядає дані.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Guest|
+start
+:користувач натискає на дані, які хоче переглянути;
+|System|
+:система відкриває сторінку з даними;
+stop
+@enduml

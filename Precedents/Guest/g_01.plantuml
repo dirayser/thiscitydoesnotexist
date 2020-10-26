@@ -1,0 +1,26 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Guest.
+<font color=000 size=16><b>ID:</b> g_01
+<font color=000 size=16><b>Name:</b> Авторизація існуючого користувача.
+<font color=000 size=16><b>Participants:</b> Guest, System.
+<font color=000 size=16><b>Conditions:</b> Деталі авторизації користувача.
+<font color=000 size=16><b>Exceptions:</b> Не вірні дані авторизації.
+<font color=000 size=16><b>Result:</b> Користувач авторизувався.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Guest|
+start
+:користувач натискає на відповідну кнопку ("Вхід")\nв правому в правій частині головної сторінки;
+|System|
+:система відкриває сторінку для входу;
+|Guest|
+:користувач вводить логін та пароль;
+|System|
+:система обробляє дані та авторизує користувача або повідомляє про помилку;
+stop
+@enduml
+
+

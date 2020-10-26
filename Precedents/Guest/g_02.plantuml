@@ -1,0 +1,24 @@
+@startuml
+left header
+<font color=000 size=18><b>Package:</b> Guest.
+<font color=000 size=16><b>ID:</b> g_02
+<font color=000 size=16><b>Name:</b> Реєстрація облікового запису.
+<font color=000 size=16><b>Participants:</b> Guest, System.
+<font color=000 size=16><b>Conditions:</b> Деталі реєстрації користувача.
+<font color=000 size=16><b>Exceptions:</b> 
+<font color=000 size=16><b>Result:</b> Зареєстровано нового користувача.
+
+<font color=000 size=16><b>Main scenario:</b>
+
+end header
+|Guest|
+start
+:користувач натискає на відповідну кнопку ("Зареєструваттись")\nв правому в правій частині головної сторінки;
+|System|
+:система відкриває сторінку для реєстрації;
+|Guest|
+:користувач вводить логін та пароль;
+|System|
+:система валідує дані та вносить зміни в базу данних;
+stop
+@enduml
