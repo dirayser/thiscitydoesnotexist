@@ -1,0 +1,15 @@
+{
+  "name": "thiscitydoesnotexist",
+  "version": "1.0.0",
+  "description": "DataBases project",
+  "main": "create_tables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dirayser",
+  "license": "ISC",
+  "dependencies": {
+    "for-async": "^1.0.1",
+    "pg": "^8.5.1"
+  }
+}
