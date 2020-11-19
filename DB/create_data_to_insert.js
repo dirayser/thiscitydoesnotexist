@@ -41,7 +41,7 @@ for(const table in result){ // write data to files
     output = output.slice(0, -2); // delete last coma
     const fileName = table.split(' ')[2] + '_' + counter; // create file name
     console.log(fileName);
-    fs.writeFileSync(`./toInsert/${fileName}.txt`, output, (err, data) => { // write to files
+    fs.writeFileSync(`./toInsert/${fileName}.sql`, output, (err, data) => { // write to files
       if(err) console.log(err);
     });
     counter++;
