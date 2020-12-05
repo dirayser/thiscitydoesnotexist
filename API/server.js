@@ -72,8 +72,7 @@ app.get("/users/where/:condsStr", function (request, response) {
       if(err) console.log(err);
       else {
         const answer = res.rows;
-        response.sendStatus(200);
-        console.log(answer);
+        response.status(200).json(answer);
       }
     });
   }
@@ -90,10 +89,9 @@ app.get("/vacancies/:user_id,:user_pswd,:inst_id", function(request, response) {
           if(errV) console.log(errV);
           else {
             const answerVac = resV.rows;
-            console.log(answerVac);
+            response.status(200).json(answerVac);
           }
         });
-        response.sendStatus(200);
       }
       else { // authorization failed
         response.send('Authorization failed');
