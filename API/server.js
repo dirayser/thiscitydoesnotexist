@@ -17,10 +17,10 @@ process.on('unhandledRejection', error => {
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 const pool = new Pool({
-  user: process.env.db_user,
-  host: process.env.db_host,
-  database: process.env.db_name,
-  password: process.env.db_pswd,
+  user: 'pqlxmrkjegmhme',
+  host: 'ec2-34-246-141-162.eu-west-1.compute.amazonaws.com',
+  database: 'd8prkt2gob7i6r',
+  password: '18172bd6fa3ff4dec753f81ea8a603f61becffa66c959673dd1dadce42f6a78a',
   port: 5432,
   ssl: true
 });
@@ -76,6 +76,9 @@ app.get("/users/where/:condsStr", function (request, response) {
       }
     });
   }
+  else {
+    response.sendStatus(400);
+  }
 });
 
 app.get("/vacancies/:user_id,:user_pswd,:inst_id", function(request, response) {
@@ -94,7 +97,7 @@ app.get("/vacancies/:user_id,:user_pswd,:inst_id", function(request, response) {
         });
       }
       else { // authorization failed
-        response.send('Authorization failed');
+        response.status(400).send('Authorization failed');
       }
     }
   });
@@ -132,7 +135,7 @@ app.put('/user/:admin_id,:admin_pswd,:user_id', (request, result) => {
         result.sendStatus(200);
       }
       else { // Permission denied
-        result.send('Permission denied');
+        result.status(400).send('Permission denied');
       }
     }
   });
