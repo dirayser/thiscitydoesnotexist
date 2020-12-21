@@ -18,7 +18,7 @@ const pool = new Pool({
   ssl: true
 });
 
-const file = 'Vacancies_1.txt';
+const file = 'Vacancies_1.sql';
 
 pool.query(fs.readFileSync('./toInsert/' + file).toString(), (err, res) => {
   console.log(err, res);
